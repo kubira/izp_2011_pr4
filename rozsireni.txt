@@ -1,0 +1,36 @@
+Projekt:  Ceske razeni
+Autor:    Radim Kubis, xkubis03@stud.fit.vutbr.cz
+Datum:    13.12.2011
+--------------------------------------------------------------------------------
+
+  Rozsireni - unikatni razeni = serazeny vystup neobsahuje dve stejne polozky
+================================================================================
+
+Prepinacem --usort (musi byt jako posledni) lze spustit program s unikatnim
+razenim. Vystup neobsahuje dve absolutne stejne polozky, tj. pri razeni zalezi
+i na velikost jednotlivych pismen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Priklad 1:
+
+Radim kubis
+Radim Kubis
+
+Tyto dva radky jsou ruzne - lisi se ve velikosti pismene K druheho retezce,
+na vystupu budou oba radky, male pismeno je razeno pred velke.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Priklad 2:
+
+Radim Kubis
+Radim Kubis
+
+Oba retezce jsou totozne, na vystupu bude pouze jeden.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Priklad 3:
+
+ch
+cH
+Ch
+CH
+
+Vsechny ctyri radky jsou od sebe ruzne, razeni je opet podle velikost, male
+pismeno pred velke pismeno.
